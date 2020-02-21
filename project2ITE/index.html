@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src = "app.js"> </script>
+</head>
+<!-- <body onload = "alert('the page have reloaded')">  -->
+<body onresize = "alert('The page has been resized')">
+    <h1> DOM demo</h1>
+
+    <div onclick = "alert('grouping the paragraphs')">
+        <p id = "first" onmouseover = "alert('the first')"> This is the first paragraph </p>
+        <p id = "second">  This is the second paragraph </p>
+        <p> This is the third paragraph </p>
+    </div>
+    <button onclick = displayPara1()> First paragraph </button> 
+    <button onmouseover = displayPara2()> Mouse crossover </button>
+</body>
+</html>
+
+<!-- 2-7-2020 -->
